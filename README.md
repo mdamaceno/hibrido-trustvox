@@ -20,7 +20,7 @@ echo $this
     ->getLayout()
     ->createBlock('core/template')
     ->setTemplate('hibrido/widget_trustvox.phtml')
-    ->tohtml();
+    ->toHtml();
 ?>
 ```
 
