@@ -272,17 +272,17 @@ class Hibrido_Trustvox_Helper_Data extends Mage_Core_Helper_Abstract
 
     public function getToken()
     {
-        return Mage::getStoreConfig('trustvox_options/general/token');
+        return Mage::getStoreConfig('hibridotrustvox/configuracoes/token');
     }
 
     public function getTrustvoxId()
     {
-        return Mage::getStoreConfig('trustvox_options/general/id_trustvox');
+        return Mage::getStoreConfig('hibridotrustvox/configuracoes/numero_da_loja');
     }
 
     public function getPeriod()
     {
-        return Mage::getStoreConfig('trustvox_options/general/period');
+        return Mage::getStoreConfig('hibridotrustvox/configuracoes/periodo');
     }
 
     public function log($message)
