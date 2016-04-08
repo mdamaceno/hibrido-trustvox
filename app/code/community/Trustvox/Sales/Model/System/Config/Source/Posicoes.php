@@ -1,6 +1,5 @@
 <?php
-
-class Hibrido_Trustvox_Model_System_Config_Source_Posicoes {
+class Trustvox_Sales_Model_System_Config_Source_Posicoes {
     /**
      * Options getter
      *
@@ -13,7 +12,6 @@ class Hibrido_Trustvox_Model_System_Config_Source_Posicoes {
             array('value' => 'personalizado', 'label' => Mage::helper('adminhtml')->__('Personalizado'))
         );
     }
-
     /**
      * Get options in "key-value" format
      *

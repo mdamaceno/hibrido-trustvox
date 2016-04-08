@@ -1,6 +1,5 @@
 <?php
-
-class Hibrido_Trustvox_Model_System_Config_Source_Yesno {
+class Trustvox_Sales_Model_System_Config_Source_Yesno {
     /**
      * Options getter
      *
@@ -13,7 +12,6 @@ class Hibrido_Trustvox_Model_System_Config_Source_Yesno {
             array('value' => 'nao', 'label' => Mage::helper('adminhtml')->__('Não'))
         );
     }
-
     /**
      * Get options in "key-value" format
      *

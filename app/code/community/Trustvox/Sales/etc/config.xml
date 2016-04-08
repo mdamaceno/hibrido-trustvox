@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Trustvox_Sales>
+      <version>0.1.0</version>
+      <!-- Version number of your module -->
+    </Trustvox_Sales>
+  </modules>
+  <global>
+    <helpers>
+      <trustvox>
+        <class>Trustvox_Sales_Helper</class>
+      </trustvox>
+    </helpers>
+    <blocks>
+      <trustvox>
+        <class>Trustvox_Sales_Block</class>
+      </trustvox>
+    </blocks>
+    <controllers>
+      <trustvox>
+        <class>Trustvox_Sales_Controllers</class>
+      </trustvox>
+    </controllers>
+    <models>
+      <trustvox>
+        <class>Trustvox_Sales_Model</class>
+      </trustvox>
+    </models>
+  </global>
+  <frontend>
+    <layout>
+      <updates>
+        <trustvox>
+          <file>trustvox/trustvox.xml</file>
+        </trustvox>
+      </updates>
+    </layout>
+  </frontend>
+  <default>
+    <trustvox_options>
+      <general module="trustvox" translate="general">
+        <color>light</color>
+        <style>
+          padding-top: 20px;
+        </style>
+        <disable_fb_like>0</disable_fb_like>
+        <disable_twitter>0</disable_twitter>
+        <disable_comments>0</disable_comments>
+        <disable_plusone>0</disable_plusone>
+      </general>
+    </trustvox_options>
+  </default>
+</config>

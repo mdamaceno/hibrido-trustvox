@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Hibrido_Trustvox>
+        <Trustvox_Sales>
             <active>true</active>
             <codePool>community</codePool>
-        </Hibrido_Trustvox>
+        </Trustvox_Sales>
     </modules>
 </config>

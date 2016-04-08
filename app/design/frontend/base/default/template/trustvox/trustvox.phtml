@@ -1,0 +1,10 @@
+<?php
+$posicao = Mage::getStoreConfig('trustvox_options/configuracoes/posicao_do_widget');
+
+if ($posicao == 'padrao') {
+    echo $this->getLayout()
+        ->createBlock('core/template')
+        ->setTemplate('trustvox/widget_trustvox.phtml')
+        ->toHtml();
+}
+?>
