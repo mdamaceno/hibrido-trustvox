@@ -19,7 +19,7 @@ Automaticamente o módulo adicionará o widget da Trustvox na página do produto
 echo $this
     ->getLayout()
     ->createBlock('core/template')
-    ->setTemplate('hibrido/widget_trustvox.phtml')
+    ->setTemplate('trustvox/widget_trustvox.phtml')
     ->toHtml();
 ?>
 ```
