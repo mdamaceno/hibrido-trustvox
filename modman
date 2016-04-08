@@ -1,0 +1,6 @@
+app/code/community/Trustvox/Sales app/code/community/Trustvox/Sales
+app/design/frontend/base/default/layout/trustvox/trustvox.xml app/design/frontend/base/default/layout/trustvox/trustvox.xml
+app/design/frontend/base/default/template/trustvox/js_trustvox.phtml app/design/frontend/base/default/template/trustvox/js_trustvox.phtml
+app/design/frontend/base/default/template/trustvox/trustvox.phtml app/design/frontend/base/default/template/trustvox/trustvox.phtml
+app/design/frontend/base/default/template/trustvox/widget_trustvox.phtml app/design/frontend/base/default/template/trustvox/widget_trustvox.phtml
+app/etc/modules/Trustvox_Sales.xml app/etc/modules/Trustvox_Sales.xml

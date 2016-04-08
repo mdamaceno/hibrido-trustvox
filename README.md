@@ -9,10 +9,7 @@ Necessário Magento 1.9+
 
 ### Como usar
 
-Basta instalar o módulo usando composer ou manualmente.
-Em seguida, configurar as informações da Trustvox, como ID da loja, token, etc.
-
-Automaticamente o módulo adicionará o widget da Trustvox na página do produto (se a configuração "posição do widget" estiver como "Padrão"). Caso você queira colocar o widget em um local diferente na página do produto, basta colocar a configuração "posição do widget" como "Personalizado" e colar o código abaixo aonde desejar.
+Automaticamente o módulo adiciona o widget da Trustvox na página do produto (se a configuração "posição do widget" estiver como "Padrão"). Caso você queira colocar o widget em um local diferente na página do produto, basta colocar a configuração "posição do widget" como "Personalizado" e colar o código abaixo aonde desejar.
 
 ```php
 <?php

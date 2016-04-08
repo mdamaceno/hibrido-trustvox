@@ -1,5 +1,5 @@
 {
-   "name": "hibrido/hibrido-trustvox",
+   "name": "emiolo/trustvox-sales",
    "type": "magento-module",
    "require": {
       "magento-hackathon/magento-composer-installer": "*"
