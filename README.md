@@ -1,4 +1,4 @@
-# Hibrido Trustvox
+# Trustvox Sales
 
 Este módulo foi desenvolvido com o objetivo de integrar de uma maneira mais simplificada o widget da Trustvox.
 
